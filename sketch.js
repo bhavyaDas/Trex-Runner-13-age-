@@ -101,6 +101,9 @@ function setup() {
   sun = createSprite(150, 150, 20, 20)
   sun.addImage("sun", sunImg)
   sun.scale = 0.5
+  
+  trex.depth=sun.depth
+  trex.depth=trex.depth+1
 
 }
 
